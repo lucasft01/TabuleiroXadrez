@@ -1,0 +1,36 @@
+	.tabuleiro{
+		background-color: green;
+		width: 800px;
+		height: 800px;
+		float: left;
+		text-align: center;
+	}
+
+	.linha div{
+		float: left;
+		width: 100px;
+		height: 100px;
+	}
+
+	.impar div:nth-child(even){
+		background-color: gray;
+	}
+	.par div:nth-child(odd){
+		background-color: gray;
+	}
+
+	#topTab .linha div{
+		color: blue;
+	}
+
+	#bottomTab .linha div{
+		color: red;
+	}
+
+	.peaoPreto div{
+		background-color: inherit;
+	}
+
+	.peaoTrasnp div{
+		background-color: inherit;
+	}
